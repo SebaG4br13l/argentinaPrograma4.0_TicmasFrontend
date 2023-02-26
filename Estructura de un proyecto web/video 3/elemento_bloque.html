@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+       <meta charset="utf-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title> Elementos de bloque y elementos de linea</title> 
+    </head>
+    <body>
+        <h1>Elemento de bloque vs elemento de linea</h1>
+        <p> Cada elemento HTML tiene un valor de visualización predeterminado, <br>
+            según el tipo de elemento que sea. Hay dos valores de visualización: bloque y en línea.<br>
+        </p>
+        <h2>Elementos de bloque</h2>
+        <p>
+            Un elemento a nivel de bloque siempre comienza en una nueva línea y <br>
+            los navegadores automáticamente agregan algo de espacio (un margen) antes y después del elemento.<br>
+            Un elemento a nivel de bloque siempre ocupa todo el ancho disponible <br>
+            (se extiende hacia la izquierda y hacia la derecha tanto como puede).<br>    
+            Dos elementos de bloque de uso común son los tags 'p' y 'div'.<br>
+            El "p" elemento define un párrafo en un documento HTML.<br>
+            El "div" elemento define una división o una sección en un documento HTML
+        </p>
+        <h2>Elementos de linea</h2>
+        <p>
+            Un elemento en línea no comienza en una nueva línea.<br>
+            Un elemento en línea solo ocupa el ancho necesario.<br>
+            Este es un elemento 'span' dentro de un párrafo.<br>
+            <span> Hola Mundo!</span> <br>
+            <pre>¡Un elemento en línea no puede contener un elemento a nivel de bloque!</pre> <br>
+        </p>
+
+        <h3>extra: Formularios</h3>
+        <p> Elementos anidados, los formularios</p>
+
+        <form action="" method="">
+            <label>Nombre</label>
+            <input type="text" name="nombre" placeholder=" Ingrese su Nombre"/>
+            <label>Apellido</label>
+            <input type="text" name="apellido" placeholder="Ingrese su Apellido" />
+            <label>E-mail</label>
+            <input type="email" name="mail" placeholder=" E-mail" />
+            <label>Pasword</label>
+            <input type="password" name="pass" placeholder="su contraseña" />
+            <input type="submit" value="Eviar" />
+        </form>
+
+    </body>
+</html>

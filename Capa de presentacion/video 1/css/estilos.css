@@ -1,0 +1,21 @@
+/*
+    Comentario en CSS
+*/
+
+body { 
+    background-color: linen;
+}
+h1 { 
+    font:100;
+    color: blue; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: green;
+}
+p { 
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

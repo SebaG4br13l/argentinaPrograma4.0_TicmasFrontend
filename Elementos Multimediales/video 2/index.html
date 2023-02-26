@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Audio e insersion de video</title>
+    </head>
+    <body>
+        <h1>Manejo de audio e insersion de videos</h1>
+        <h2> Audio</h2>
+        <audio controls>
+            <source src="https://mdn.github.io/learning-area/html/multimedia-and-embedding/video-and-audio-content/viper.mp3" type="audio/mp3">
+            Tu navegador no soporta el elemento de audio
+        </audio>
+        <p>Parrafo </p>
+        <h2>Insersion de video</h2>
+        <h3>Como embeber videos desde youtube</h3>
+        <p>
+            La forma mas sencilla de inswertar videos es a traves de youtube.<br>
+            Primero debemos tener subido a youtube un video, y tener su id.
+        </p>
+        <h4> Elemento iframe </h4>
+        <p>
+            El elemendo iframe (inline frame) respresenta un contexto de navegacion anidado,<br> 
+            el cual permite incrustar otra pagina html en la pagina actual.
+        </p>
+        <h5> Ejemplo </h5>
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/e5trrW3i2Ns" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+        </iframe>
+    </body>
+    
+</html>
