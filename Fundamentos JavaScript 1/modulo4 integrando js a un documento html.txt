@@ -1,0 +1,43 @@
+
+
+La mejor practica para integrar js a una web, es de la misma manera que lo hacemos con css.
+
+es decir, en la carpeta del proyecto, crear un directorio js, donde se va a alojar unn fichero js,
+que contenga todas las funciones necesarias para el correcto funcionamiento de la pagina. 
+en el bdy del documento html index, llamaremos a las funciones necesarias utiliozando el tag <script>, con el atributo src= ruta.
+
+por ejemplo:
+
+documento html:
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+       <meta charset="utf-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title> Elementos de bloque y elementos de linea</title>
+       <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <h1>Ejemplo de Js</h1>
+        <p> 
+            pongamos por caso que a continuacion de este parrafo se debe ejecutar un script js, 
+            deberiamos llamarlo de la siguiente manera:
+        </p>
+        
+        <script src="js/funciones.js"> </script>
+        
+    </body>
+</html>
+
+documento css:
+
+body { background-coloe: blue;}
+
+documento Js:
+
+function holaMundo(){
+    console.log("Hola Mundo!"); 
+}
+
