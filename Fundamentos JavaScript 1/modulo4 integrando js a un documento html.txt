@@ -41,3 +41,24 @@ function holaMundo(){
     console.log("Hola Mundo!"); 
 }
 
+Eventos de js
+
+los elementos se encian para notificar al codigo de cosas interesantes que han ocurrido.
+un evento _hTML puede ser algo que hace el navegador o algo que hace el usuario.
+javascript permite ejecutar codigo cuando se detectan eventos.
+
+Controladores de eventos de JavaScript
+Los controladores de eventos se pueden usar para manejar y verificar la entrada del usuario, las acciones del usuario y las acciones del navegador:
+
+Cosas que se deben hacer cada vez que se carga una página
+Cosas que se deben hacer cuando la página está cerrada
+Acción que se debe realizar cuando un usuario hace clic en un botón
+Contenido que debe verificarse cuando un usuario ingresa datos
+Y más ...
+Se pueden usar muchos métodos diferentes para permitir que JavaScript funcione con eventos:
+
+Los atributos de eventos HTML pueden ejecutar código JavaScript directamente
+Los atributos de eventos HTML pueden llamar a funciones de JavaScript
+Puede asignar sus propias funciones de controlador de eventos a elementos HTML
+Puede evitar que los eventos se envíen o se manejen
+Y más ...
